@@ -114,7 +114,7 @@ Gw
                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                         <tableColumns>
-                                                            <tableColumn width="106" minWidth="40" maxWidth="1000" id="1Ok-9N-aIl">
+                                                            <tableColumn width="77" minWidth="40" maxWidth="1000" id="1Ok-9N-aIl">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -168,15 +168,15 @@ Gw
                                             <rect key="frame" x="145" y="17" width="332" height="290"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="nNS-kZ-Fe2">
-                                                <rect key="frame" x="0.0" y="0.0" width="317" height="275"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="332" height="290"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="u9b-6e-BFb">
-                                                        <rect key="frame" x="0.0" y="0.0" width="317" height="275"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="332" height="290"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                        <size key="minSize" width="317" height="275"/>
+                                                        <size key="minSize" width="332" height="290"/>
                                                         <size key="maxSize" width="332" height="10000000"/>
                                                         <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                         <connections>
@@ -186,11 +186,11 @@ Gw
                                                 </subviews>
                                             </clipView>
                                             <scroller key="horizontalScroller" verticalHuggingPriority="750" horizontal="YES" id="Aln-uf-7rg">
-                                                <rect key="frame" x="0.0" y="275" width="317" height="15"/>
+                                                <rect key="frame" x="0.0" y="274" width="332" height="16"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
                                             <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="WPy-9F-0mh">
-                                                <rect key="frame" x="317" y="0.0" width="15" height="275"/>
+                                                <rect key="frame" x="316" y="0.0" width="16" height="290"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
                                         </scrollView>
@@ -226,7 +226,7 @@ Gw
                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                         <tableColumns>
-                                                            <tableColumn width="446" minWidth="40" maxWidth="1000" id="ofY-tf-r3a">
+                                                            <tableColumn width="417" minWidth="40" maxWidth="1000" id="ofY-tf-r3a">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -301,7 +301,7 @@ Gw
                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                         <tableColumns>
-                                                            <tableColumn width="100" minWidth="40" maxWidth="1000" id="s4h-kx-6zl">
+                                                            <tableColumn width="71" minWidth="40" maxWidth="1000" id="s4h-kx-6zl">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -448,7 +448,7 @@ Gw
                                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                                     <tableColumns>
-                                                                        <tableColumn width="73" minWidth="40" maxWidth="1000" id="qE1-YD-I69">
+                                                                        <tableColumn width="44" minWidth="40" maxWidth="1000" id="qE1-YD-I69">
                                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
                                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -702,7 +702,7 @@ Gw
                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                         <tableColumns>
-                                                            <tableColumn width="446" minWidth="40" maxWidth="1000" id="5pD-C8-qBX">
+                                                            <tableColumn width="417" minWidth="40" maxWidth="1000" id="5pD-C8-qBX">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
