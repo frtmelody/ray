@@ -80,6 +80,8 @@ int runCommandLine(NSString* launchPath, NSArray* arguments);
 -(NSString*)getV2rayPath;
 - (NSString*)logDirPath;
 
+- (void) changeStatus:(BOOL)previousStatus  state:(BOOL)proxyState;
+
 @property (weak) IBOutlet NSMenuItem *updateServerItem;
 @property (strong, nonatomic)  NSStatusItem *statusBarItem;
 @property (weak) IBOutlet NSMenuItem *upgradeMenuItem;

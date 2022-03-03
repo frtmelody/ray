@@ -35,7 +35,7 @@
 
 @implementation AppDelegate
 
-static AppDelegate *appDelegate;
+AppDelegate *appDelegate;
 
 - (NSData*)v2rayJSONconfig {
     return v2rayJSONconfig;
@@ -540,20 +540,7 @@ static AppDelegate *appDelegate;
         runCommandLine(kV2RayXHelper,@[@"off"]);
     });
 }
-
-- (IBAction)didChangeStatus:(id)sender {
-    NSInteger previousStatus = proxyState;
-    if (sender == self) {
-        previousStatus = false;
-    }
-    // sender can be
-    // 1. self, when app is launched
-    // 2. menuitem, when a user click on a server or a routing or updateSeverMenuItem
-    // 3. configwindow controller
-    if (sender == _enableV2rayItem) {
-        proxyState = !proxyState;
-    }
-    // make sure current status parameter is valid
+- (void) changeStatus:(BOOL)previousStatus  state:(BOOL)proxyState {
     selectedServerIndex = MIN((NSInteger)profiles.count + (NSInteger)_subsOutbounds.count - 1, selectedServerIndex);
     if (profiles.count + _subsOutbounds.count > 0) {
         selectedServerIndex = MAX(selectedServerIndex, 0);
@@ -584,6 +571,23 @@ static AppDelegate *appDelegate;
     }
     [self updateMenus];
     [self updatePacMenuList];
+
+}
+
+- (IBAction)didChangeStatus:(id)sender {
+    NSInteger previousStatus = proxyState;
+    if (sender == self) {
+        previousStatus = false;
+    }
+    // sender can be
+    // 1. self, when app is launched
+    // 2. menuitem, when a user click on a server or a routing or updateSeverMenuItem
+    // 3. configwindow controller
+    if (sender == _enableV2rayItem) {
+        proxyState = !proxyState;
+    }
+    // make sure current status parameter is valid
+    [self changeStatus:previousStatus state:proxyState];
 }
 
 - (IBAction)didChangeMode:(id)sender {
